@@ -1,5 +1,5 @@
-const dotenv=require('dotenv');
+const dotenv = require("dotenv");
 dotenv.config();
 
-const{PORT}=process.env;
-module.exports={PORT};
+const { PORT, SECRET_ACCESS_TOKEN } = process.env;
+module.exports = { PORT, SECRET_ACCESS_TOKEN };
